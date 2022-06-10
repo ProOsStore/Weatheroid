@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Weatheroid</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="Pro Incorporation">
+  <meta name="description" CONTENT="Enter City name or Click on Get device location for weather information.">
+  <meta name="keywords" content="Android">
+  <meta property="og:title" content="Weatheroid">
+  <meta property="og:description" content="Weatheroid X Firebase">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://proosstore.web.app">
+  <meta property="og:image" content="https://i.ibb.co/F6G7qjX/1654849200084.png">
+  <meta property="og:site_name" content="Weatheroid">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Weatheroid">
+  <meta name="twitter:url" content="https://proosstore.web.app">
+  <meta name="twitter:description" content="Weatheroid">
+  <meta name="twitter:image" content="https://i.ibb.co/F6G7qjX/1654849200084.png">
+  
+  <!-- Linking BoxIcon for Icon -->
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://kit.fontawesome.com/630d6755e6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header><i class='bx bx-left-arrow-alt'></i>Weatheroid</header>
+    <section class="input-part">
+      <p class="info-txt"></p>
+      <div class="content">
+        <input type="text" spellcheck="true" placeholder="Enter city name" required>
+        
+<br><br>
+        
+<button>Get Device Location</button>
+      </div>
+    </section>
+    <section class="weather-part">
+      <img src="" alt="Weather Icon">
+      <div class="temp">
+        <span class="numb">_</span>
+        <span class="deg">°</span>C
+      </div>
+      <div class="weather">_ _</div>
+      <div class="location">
+        <i class="fa-solid fa-location-dot fa-beat-fade fa-3x"></i>
+        <span>_, _</span>
+      </div>
+      <div class="bottom-details">
+        <div class="column feels">
+          <i class='fa-solid fa-temperature-half fa-fade'></i>
+          <div class="details">
+            <div class="temp">
+              <span class="numb-2">_</span>
+              <span class="deg">°</span>C
+            </div>
+            <p>Feels like</p>
+          </div>
+        </div>
+        <div class="column humidity">
+          <i class='fa-solid fa-droplet fa-fade'></i>
+          <div class="details">
+            <span>_</span>
+            <p>Humidity</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
