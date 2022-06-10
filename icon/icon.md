@@ -1,1 +1,0 @@
-Only paste icons here !
